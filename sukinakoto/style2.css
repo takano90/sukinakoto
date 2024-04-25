@@ -1,0 +1,46 @@
+        body {
+            background-color: #978166; /* 背景色を設定 */
+            font-family: 'Raglan Punch', cursive; /* フォントを設定 */
+            color: #fff; /* テキストカラーを白色に設定 */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #fff; /* 境界線を白色に設定 */
+        }
+
+        input[type="text"],
+        button {
+            margin-bottom: 10px;
+        }
+
+        #toggle-comments {
+            background-color: #fff;
+            color: #978166;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        #post-data {
+            display: none;
+        }
+
+        .post-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2); /* 投稿内容の背景色を設定 */
+        }
+
+        .post-item div {
+            margin-bottom: 5px;
+        }
+
+        .post-item div:last-child {
+            margin-bottom: 0;
+        }
